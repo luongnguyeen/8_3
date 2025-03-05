@@ -106,10 +106,10 @@
             }
         }
 
-       /* var tree = new Tree(canvas[0], width, height, opts);
+       var tree = new Tree(canvas[0], width, height, opts);
         var seed = tree.seed;
         var foot = tree.footer;
-        var hold = 1; */
+        var hold = 1; 
 
         canvas.click(function(e) {
             var offset = canvas.offset(), x, y;
@@ -144,7 +144,7 @@
             }
         }));
 
-       /* var growAnimate = eval(Jscex.compile("async", function () {
+       var growAnimate = eval(Jscex.compile("async", function () {
             do {
     	        tree.grow();
                 $await(Jscex.Async.sleep(10));
@@ -181,7 +181,7 @@
                 foot.draw();
                 $await(Jscex.Async.sleep(25));
             }
-        })); */
+        })); 
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
